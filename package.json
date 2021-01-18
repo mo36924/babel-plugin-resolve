@@ -1,6 +1,6 @@
 {
   "name": "@mo36924/babel-plugin-resolve",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "babel-plugin-resolve",
   "repository": {
     "type": "git",
@@ -117,14 +117,16 @@
       "@mo36924/jest-snapshot-serializer-babel"
     ]
   },
+  "dependencies": {
+    "@types/babel__core": "^7.1.12",
+    "enhanced-resolve": "^5.7.0"
+  },
   "devDependencies": {
     "@babel/core": "^7.12.10",
     "@mo36924/jest-snapshot-serializer-babel": "^1.0.0",
-    "@types/babel__core": "^7.1.12",
     "@types/node": "^14.14.21",
     "@typescript-eslint/parser": "^4.13.0",
     "del-cli": "^3.0.1",
-    "enhanced-resolve": "^5.7.0",
     "eslint": "^7.18.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-react-hooks": "^4.2.0",
